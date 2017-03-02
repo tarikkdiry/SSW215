@@ -1,0 +1,12 @@
+Tarik Kdiry
+I pledge my honor that I have abided by the Stevens Honor System
+
+host-j-35:SSW215 tarikkdiry$ ruby read.rb
+Total Sentences: 6
+Total Words: 257
+Total Letters: 1040
+Total Syllables: 280
+Total Difficult Words: 54
+Flesch–Kincaid Grade Level Score: 12.59
+Coleman–Liau Index Score: 7.719999999999999
+Dale-Chall Ability Score: 5.7197

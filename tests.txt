@@ -1,0 +1,14 @@
+host-j-8:SSW215 tarikkdiry$ ruby schedule.rb
+Alright, let's get this pool started
+What is the length of your pool in feet?
+13
+What is the width of your pool?
+12
+What is the depth at that shallow end?
+3
+What is the depth at the deep end?
+8
+How many jobs are there?
+3
+schedule.rb:34:in `<main>': undefined method `+' for nil:NilClass (NoMethodError)
+host-j-8:SSW215 tarikkdiry$

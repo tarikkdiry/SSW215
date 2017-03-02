@@ -1,0 +1,20 @@
+host-j-8:SSW215 tarikkdiry$ ruby iditarod.rb
+Give me that starting date:
+Year?
+1990
+Month?
+3
+Day?
+5
+Give me the expected number of days.
+11
+Give me the expected amount of time.
+Hours?
+1
+Minutes?
+53
+Seconds?
+23
+Start: Monday, 03/05/1990 on 08:00:00
+End: Friday, 03/16/1990 on 09:53:23
+host-j-8:SSW215 tarikkdiry$

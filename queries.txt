@@ -1,0 +1,22 @@
+Tarik Kdiry
+I pledge my honor that I have abided by the Stevens Honor System.
+
+A)sqlite>SELECT * FROM Album;
+3|3|Rubber Soul
+4|3|Revolver
+5|4|Wildflowers
+6|4|IntoThe Great Wide Open
+
+B)sqlite>SELECT Album.title FROM Album join Artist where Album.artist_id = Artist.id AND Artist.name = 'Tom Petty';
+Wildflowers
+IntoThe Great Wide Open
+
+C)sqlite> SELECT Track.title FROM Track join Album where Track.album_id = Album.id AND Album.title = 'Revolver';
+Taxman
+Eleanor Rigby
+Yellow Submarine
+
+D)sqlite> SELECT Title FROM Album WHERE id in (SELECT Album_id FROM Track WHERE Genre_id in (SELECT id FROM Genre WHERE name = 'Folk'));
+Rubber Soul
+Revolver
+Wildflowers

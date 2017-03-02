@@ -1,0 +1,18 @@
+host-j-8:SSW215 tarikkdiry$ ruby schedule.rb
+Alright, let's get this pool started
+
+Job number for customer:
+1
+What is the length of your pool in feet?
+13
+What is the width of your pool?
+13
+What is the depth at that shallow end?
+4
+What is the depth at the deep end?
+8
+How many jobs are there?
+2
+***Does not compile***
+
+host-j-8:SSW215 tarikkdiry$

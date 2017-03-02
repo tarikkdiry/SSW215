@@ -1,0 +1,6 @@
+﻿Tarik Kdiry
+I pledge my honor that I have abided by the Stevens Honor System.
+
+sqlite> SELECT Title FROM Album WHERE Artistid = 1;
+For Those About To Rock We Salute You
+Let There Be Rock

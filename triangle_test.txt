@@ -1,0 +1,40 @@
+Tarik Kdiry
+I pledge my honor that I have abided by the Stevens Honor System
+
+host-vlth4x-21:SSW215 tarikkdiry$ ruby triangle.rb
+Give me a side length!
+2
+Give me another side length!
+2
+Give me that hypotenuse!
+2
+Sides are: 2,2,2
+Equilateral acute triangle
+host-vlth4x-21:SSW215 tarikkdiry$ ruby triangle.rb
+Give me a side length!
+12
+Give me another side length!
+12
+Give me that hypotenuse!
+14
+Sides are: 12,12,14
+Isosceles acute triangle
+host-vlth4x-21:SSW215 tarikkdiry$ ruby triangle.rb
+Give me a side length!
+12
+Give me another side length!
+12
+Give me that hypotenuse!
+23
+Sides are: 12,12,23
+Isosceles obtuse triangle
+host-vlth4x-21:SSW215 tarikkdiry$ ruby triangle.rb
+Give me a side length!
+3
+Give me another side length!
+4
+Give me that hypotenuse!
+15
+Sides are: 3,4,15
+This is not a triangle!
+host-vlth4x-21:SSW215 tarikkdiry$
