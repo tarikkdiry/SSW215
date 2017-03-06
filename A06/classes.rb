@@ -16,12 +16,11 @@ begin
   puts "Give me your student, then their three classes."
   answer = gets.split.to_s
 
-  
+
+
+  puts answer
 
 end
-
-
-
 
 
 

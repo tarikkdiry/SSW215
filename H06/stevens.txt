@@ -1,0 +1,139 @@
+0 @I01@ INDI
+1 NAME John Stevens
+1 BORN 1749
+0 @I02@ INDI
+1 NAME Rachel Cox
+1 BORN 1761
+0 @I03@ INDI
+1 NAME John Cox Stevens
+1 BORN 1785 
+0 @I04@ INDI
+1 NAME Robert Livingston Stevens
+1 BORN 1787
+0 @I05@ INDI
+1 NAME James Alexander Stevens
+1 BORN 1790
+0 @I06@ INDI
+1 NAME Richard Stevens
+1 BORN 1792
+0 @I07@ INDI
+1 NAME Francis Bowes Stevens
+1 BORN 1793
+0 @I08@ INDI
+1 NAME Edwin Augustus Stevens
+1 BORN 1795
+0 @I09@ INDI
+1 NAME Elizabeth Juliana Stevens
+1 BORN 1797
+0 @I10@ INDI
+1 NAME Mary Stevens
+1 BORN 1799
+0 @I11@ INDI
+1 NAME Harriet Stevens
+1 BORN 1801
+0 @I12@ INDI
+1 NAME Esther Bowes Stevens
+1 BORN 1804
+0 @I13@ INDI
+1 NAME Catherine Sophia Stevens
+1 BORN 1806
+0 @I14@ INDI
+1 NAME Mary Barton Picton
+1 BORN 1816
+0 @I15@ INDI
+1 NAME Martha Bayard Dod
+1 BORN 1831
+0 @I16@ INDI
+1 NAME Mary Picton Stevens
+1 BORN 1840
+0 @I17@ INDI
+1 NAME John Stevens
+1 BORN 1856
+0 @I18@ INDI
+1 NAME Edwin Augustus Stevens
+1 BORN 1858
+0 @I19@ INDI
+1 NAME Caroline Bayard Stevens
+1 BORN 1859
+0 @I20@ INDI
+1 NAME Julia Augusta Stevens
+1 BORN 1863
+0 @I21@ INDI
+1 NAME Robert Livingston Stevens
+1 BORN 1864
+0 @I22@ INDI
+1 NAME Charles Albert Stevens
+1 BORN 1865
+0 @I23@ INDI
+1 NAME Richard Stevens
+1 BORN 1868
+0 @I24@ INDI
+1 NAME Emily Contee Lewis
+1 BORN 1857
+0 @I25@ INDI
+1 NAME John Stevens
+1 BORN 1881
+0 @I26@ INDI
+1 NAME Edwin Augustus Stevens
+1 BORN 1882
+0 @I27@ INDI
+1 NAME Washington Lewis Stevens
+1 BORN 1883
+0 @I28@ INDI
+1 NAME Bayard Stevens
+1 BORN 1885
+0 @I29@ INDI
+1 NAME Martha Bayard Stevens
+1 BORN 1886
+0 @I30@ INDI
+1 NAME Basil Martiau Stevens
+1 BORN 1888
+0 @I31@ INDI
+1 NAME Lawrence Lewis Stevens
+1 BORN 1889
+0 @I32@ INDI
+1 NAME Emily Lewis Stevens
+1 BORN 1896
+0 @F01@ FAM
+1 HUSB @I01@
+1 WIFE @I02@
+1 CHIL @I03@
+1 CHIL @I04@
+1 CHIL @I05@
+1 CHIL @I06@
+1 CHIL @I07@
+1 CHIL @I08@
+1 CHIL @I09@
+1 CHIL @I10@
+1 CHIL @I11@
+1 CHIL @I12@
+1 CHIL @I13@
+1 MARR 1782
+0 @F02@ FAM
+1 HUSB @I08@
+1 WIFE @I14@
+1 CHIL @I16@
+1 MARR 1836
+0 @F03@ FAM
+1 HUSB @I08@
+1 WIFE @I15@
+1 CHIL @I17@
+1 CHIL @I18@
+1 CHIL @I19@
+1 CHIL @I20@
+1 CHIL @I21@
+1 CHIL @I22@
+1 CHIL @I23@
+1 MARR 1854
+0 @F04@ FAM
+1 HUSB @I18@
+1 WIFE @I24@
+1 CHIL @I30@
+1 CHIL @I31@
+1 CHIL @I32@
+1 CHIL @I25@
+1 CHIL @I26@
+1 CHIL @I27@
+1 CHIL @I28@
+1 CHIL @I29@
+1 MARR 1879
