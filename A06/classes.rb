@@ -2,60 +2,30 @@
 #I pledge my honor that I have abided by the Stevens Honor System
 #Collaborated with Oscar Tavara
 
-
-h = {}
-h['class'] = Array.new
-h['class'] << 215
-h['class'] << 315
-h['class'] << 322
-h['class'] << 345
-h['class'] << 555
-
-# class[215] = {}
 begin
-  puts "Give me your student, then their three classes."
-  answer = gets.split.to_s
+  puts "Give me the students' names and class codes. Enter 0 when you are finished "
+  $/ = "0"
+  start_length =  0
 
+  answer = STDIN.gets.split("\n")
 
+  (answer.length - 1).times do |i|
+    answer.delete($/)
+    answer[i] = answer[i].split(" ")
+    answer[i][1, answer[i].length]
+      if (answer[i][0].is_a? String) && (not answer[i][1, answer[i].length].join.scan(/^\d+$/).empty?)
+        start_length += answer[i].length
+      end
+  end
+end until start_length == answer.inject([], :+).count
 
-  puts answer
-
+classes = Hash.new{|key, value| key[value] = []}
+answer.length.times do |count|
+  1.upto(answer[count].length - 1) do |i|
+    classes[answer[count][i].to_i].push(answer[count][0].to_s)
+  end
 end
 
-
-
-# class2 = gets.to_i
-# class3 = gets.to_i
-
-# if h['class'].include?(class1)
-#   puts class1.to_s + ":"
-#   puts student_name
-# end
-
-
-
-# begin
-#   puts "Give me the name of the student and the classes they are enrolled in."
-#   puts "When finished, enter 0"
-#
-#   name = gets.to_s
-#
-#   check = name.to_i
-#
-#   if check == 0
-#     classes = [gets.to_i]
-#     n = classes.length
-#     n.times do
-#       if h.key?(classes[n])
-#         temp = h[classes[n]] + name
-#         n -= 1
-#       end
-#       if not h.key?(classes[n])
-#         h[classes[n] => name]
-#         n -= 1
-#       end
-#     end
-#   end
-# end until check == 1
-#
-# puts h
+for l in classes.keys.sort
+  puts "\n" + l.to_s + ":\n" + classes[l].sort.join("\n").to_s + "\n"
+end
